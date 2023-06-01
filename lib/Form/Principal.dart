@@ -2,6 +2,7 @@
 
 import 'package:currency_text_input_formatter/currency_text_input_formatter.dart';
 import 'package:finanmath/Form/Component.dart';
+import 'package:finanmath/Form/Gradiente.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:intl/intl.dart';
@@ -36,8 +37,8 @@ class _PrincipalState extends State<Principal> {
         dropdown2: dropdown2,
         modo: 1,
       ),
-      const CommingSoon(),
-      const CommingSoon(),
+      const GradienteView(tipo: 1),
+      const GradienteView(tipo: 2),
     ];
     super.initState();
   }
